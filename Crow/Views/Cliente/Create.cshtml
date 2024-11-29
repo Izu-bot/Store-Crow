@@ -1,0 +1,31 @@
+﻿@model Crow.ViewModels.ClienteCreateViewModel
+
+@{
+    ViewData["Title"] = "Criar Conta";
+}
+
+<div class="row mt-lg-5">
+    <div class="col">
+        <img src="~/images/CrowGimp.png" class="img-fluid" />
+    </div>
+    <div class="col mt-3">
+        <form>
+            <h3>Crie uma nova conta</h3>
+            <div class="mb-2">
+                <label for="exampleInputEmail1" class="form-label fw-bolder">Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-2">
+                <label for="exampleInputPassword1" class="form-label fw-bolder">Email</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-2">
+                <label for="exampleInputPassword1" class="form-label fw-bolder">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Criar</button>
+            </div>
+        </form>
+    </div>
+</div>
